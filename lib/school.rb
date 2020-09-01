@@ -24,6 +24,7 @@ end
   def sort
     @roster.each do |grade, names|
       @roster[grade] = names.sort
+      #because this calls on the array itself
     end
   end
   end
