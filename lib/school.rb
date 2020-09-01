@@ -21,11 +21,12 @@ end
   end
   
   def sort 
-    sorted = {}
-    roster.each do |grade, name|
-      sorted[grade] = name.sort
-    end
-    sorted
+    # sorted = {}
+    # roster.each do |grade, name|
+    #   sorted[grade] = name.sort
+    # end
+    # sorted
+    name.sort!
   end
   
   
